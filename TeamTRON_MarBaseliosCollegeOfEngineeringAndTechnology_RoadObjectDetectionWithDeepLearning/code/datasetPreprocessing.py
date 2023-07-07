@@ -9,39 +9,42 @@ from pathlib import Path
 
 
 def convert_xml_to_yolo(xml_file, xml_path, class_mapping, output_folder):
-    tree = etree.parse(xml_file)
-    root = tree.getroot()
+    try:
+        tree = etree.parse(xml_file)
+        root = tree.getroot()
 
-    size_element = root.find('size')
-    image_width = int(size_element.find('width').text)
-    image_height = int(size_element.find('height').text)
+        size_element = root.find('size')
+        image_width = int(size_element.find('width').text)
+        image_height = int(size_element.find('height').text)
 
-    yolo_annotations = []
-    for obj in root.findall('object'):
-        class_name = obj.find('name').text
+        yolo_annotations = []
+        for obj in root.findall('object'):
+            class_name = obj.find('name').text
 
-        if class_name not in class_mapping:
-            class_mapping[class_name] = len(class_mapping)
-        class_index = class_mapping[class_name]
+            if class_name not in class_mapping:
+                class_mapping[class_name] = len(class_mapping)
+            class_index = class_mapping[class_name]
 
-        bbox = obj.find('bndbox')
-        xmin = int(bbox.find('xmin').text)
-        ymin = int(bbox.find('ymin').text)
-        xmax = int(bbox.find('xmax').text)
-        ymax = int(bbox.find('ymax').text)
+            bbox = obj.find('bndbox')
+            xmin = int(bbox.find('xmin').text)
+            ymin = int(bbox.find('ymin').text)
+            xmax = int(bbox.find('xmax').text)
+            ymax = int(bbox.find('ymax').text)
 
-        x = (xmin + xmax) / (2.0 * image_width)
-        y = (ymin + ymax) / (2.0 * image_height)
-        w = (xmax - xmin) / image_width
-        h = (ymax - ymin) / image_height
+            x = (xmin + xmax) / (2.0 * image_width)
+            y = (ymin + ymax) / (2.0 * image_height)
+            w = (xmax - xmin) / image_width
+            h = (ymax - ymin) / image_height
 
-        yolo_annotation = f"{class_index} {x:.6f} {y:.6f} {w:.6f} {h:.6f}"
-        yolo_annotations.append(yolo_annotation)
+            yolo_annotation = f"{class_index} {x:.6f} {y:.6f} {w:.6f} {h:.6f}"
+            yolo_annotations.append(yolo_annotation)
 
-    label_filename = xml_path.replace('/', '_') + '.txt'
-    output_file = Path(output_folder, label_filename)
-    with output_file.open('w') as f:
-        f.write('\n'.join(yolo_annotations))
+        label_filename = xml_path.replace('/', '_') + '.txt'
+        output_file = Path(output_folder, label_filename)
+        with output_file.open('w') as f:
+            f.write('\n'.join(yolo_annotations))
+    except FileNotFoundError:
+        print('XML file not found: {}'.format(xml_file))
 
 
 def copy_files(source_file, dest_image_folder, dest_label_folder, idd_dataset):
@@ -64,9 +67,9 @@ def copy_files(source_file, dest_image_folder, dest_label_folder, idd_dataset):
 
         try:
             shutil.copy(image_file, dest_image_path)
-            print(f"Copied image file: {image_file} to {dest_image_path}")
+            print('Copied image file: {} to {}'.format(image_file, dest_image_path))
         except FileNotFoundError:
-            print(f"Image file not found: {image_file}")
+            print('Image file not found: {}'.format(image_file))
 
 
 def convert_dataset(xml_path_files, idd_dataset, modified_dataset):
@@ -134,7 +137,7 @@ def main():
     end_time = time.time()
     execution_time = end_time - start_time
 
-    print("Execution completed in {:.5f} seconds.".format(execution_time))
+    print('Execution completed in {:.5f} seconds'.format(execution_time))
 
 
 if __name__ == '__main__':
