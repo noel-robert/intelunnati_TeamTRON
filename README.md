@@ -31,6 +31,8 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 2. To download CUDA, check [CUDA Toolkit 12.2 Downloads | NVIDIA Developer](https://developer.nvidia.com/cuda-downloads), or for previous versions check [CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive).
 
 3. [Download](https://pytorch.org/get-started/locally/) PyTorch. Make sure that Compute Platform versions match.
+
+4. Optionally, try installing [cuDNN](https://developer.nvidia.com/cudnn), but a *NVIDIA Developer Program Membership* is required for this.
    
    
 
@@ -44,7 +46,7 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    python train.py --img <image_size> --batch <batch_size> --epochs <num_epochs> --data <data/data.yaml> --cfg <path_to_model_config>
    ```
    
-   add '--device cuda:0' if you are using a dedicated GPU. Also try installing [cuDNN](https://developer.nvidia.com/cudnn), but a *NVIDIA Developer Program Membership* is required.
+   add '--device cuda:0' if you are using a dedicated GPU.
    
    *Optional: use `--weights <path_to_weights>` if you have pretrained weights from any previous runs.*
    
@@ -53,10 +55,10 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    For example during the first training, the command was:
    
    ```python
-   python train.py --img 640 --batch 8 --epochs 50 --data data/idd.yaml --cfg models/yolov5s.yaml --device cuda:0 --workers 4  
+   python train.py --img 640 --batch 8 --epochs 50 --data ../idd.yaml --cfg ../yolov5n.yaml --device cuda:0 --workers 8
    ```
 
-
+3. 
 
 
 
