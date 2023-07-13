@@ -1,12 +1,12 @@
 ###### *intelunnati_TeamTRON*
 
-# **Intel Unnati Project - Team TRON**
+# **<u>Intel Unnati Project - Team TRON</u>**
 
 This repository was created as part of Intel UNNATI Industrial Training Project, 2023. The topic of our project was "Road Object Detection with Deep Learning". <br>
 
 <p> Our aim was to develop a model that could identify objects in roads, specifically Indian roads. The reason that other commonly available models could not work properly in this environment is due to the variety of objects found in Indian roads. <br><br>
 
-##### Setting-up environment and Data pre-processing:
+#### Setting-up environment and Data pre-processing:
 
 1. Clone | fork this project - [intelunnati_TeamTRON](https://github.com/noel-robert/intelunnati_TeamTRON)
 
@@ -22,7 +22,7 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 
 7. Run *datasetPreprocessing.py* using the command `python datasetPreprocessing.py`. This will create a new folder ***modified_dataset*** in ***data*** folder, which is where dataset is stored in the proper format. <br>
 
-
+8. As of 13/07/2023, it has been noticed that a package Pillow v10.0.0 is causing issues. So, it is recommended to downgrade to version 9.5 using the code `pip install --upgrade Pillow==9.5`
 
 ###### (Optional) Installing CUDA for training on GPU:
 
@@ -33,10 +33,10 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 3. [Download](https://pytorch.org/get-started/locally/) PyTorch. Make sure that Compute Platform versions of PyTorch and CUDA match.
 
 4. Optionally, try installing [cuDNN](https://developer.nvidia.com/cudnn), but a *NVIDIA Developer Program Membership* is required for this.
-   
-   
 
-##### Model training:
+#### 
+
+#### Model training:
 
 1. YOLOv5 has 5 different pretrained models to choose from - *YOLOv5n*, *YOLOv5s*, *YOLOv5m*, *YOLOv5l*, and *YOLOv5xl*. The .yaml files for these models along with configuration file *idd.yaml* are present within the ***models*** folder. These files have been modified to suit requirements of this project.
 
@@ -62,15 +62,7 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 
 
 
-##### Testing the trained model:
-
-
-
-
-
-
-
-
+#### Testing the trained model:
 
 Collaborators:  
  [@Josh-Alex](https://github.com/JoshAlex12)  
