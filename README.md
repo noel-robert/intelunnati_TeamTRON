@@ -28,9 +28,9 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 
 1. Check if your [NVIDIA GPU supports CUDA](https://developer.nvidia.com/cuda-gpus).
 
-2. To download CUDA, check [CUDA Toolkit 12.2 Downloads | NVIDIA Developer](https://developer.nvidia.com/cuda-downloads), or for previous versions check [CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive).
+2. To download CUDA, check [CUDA Toolkit 12.2 Downloads | NVIDIA Developer](https://developer.nvidia.com/cuda-downloads), and for older versions check [CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive).
 
-3. [Download](https://pytorch.org/get-started/locally/) PyTorch. Make sure that Compute Platform versions match.
+3. [Download](https://pytorch.org/get-started/locally/) PyTorch. Make sure that Compute Platform versions of PyTorch and CUDA match.
 
 4. Optionally, try installing [cuDNN](https://developer.nvidia.com/cudnn), but a *NVIDIA Developer Program Membership* is required for this.
    
@@ -58,9 +58,11 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    python train.py --img 640 --batch 8 --epochs 50 --data ../idd.yaml --cfg ../yolov5n.yaml --device cuda:0 --workers 8
    ```
 
-3. 
+3. Results of model training can be found in ***models/yolov5/runs/trains/exp_no***.<br>A ***weights*** folder is also present containing *best.pt* and *last.pt*.The *best.pt* file contains the weights to be used for next iteration.
 
 
+
+##### Testing the trained model:
 
 
 
