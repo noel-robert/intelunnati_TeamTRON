@@ -33,8 +33,6 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 3. [Download](https://pytorch.org/get-started/locally/) PyTorch. Make sure that Compute Platform versions of PyTorch and CUDA match.
 
 4. Optionally, try installing [cuDNN](https://developer.nvidia.com/cudnn), but a *NVIDIA Developer Program Membership* is required for this.
-   
-   
 
 #### Model training:
 
@@ -59,12 +57,10 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    ```
 
 3. Results of model training can be found in ***models/yolov5/runs/trains/exp_no***.<br>A ***weights*** folder is also present containing *best.pt* and *last.pt*.The *best.pt* file contains the weights to be used for next iteration.
-   
-   
 
 #### Validating the trained model:
 
-1. Validation images are present inside ***modified_dataset/images/val***. To run the program for using trained weights to validate, use the following code while in ***models/yolov5*** directory<br>
+1. Validation images are present inside ***modified_dataset/images/val***. To run the program for using trained weights to validate, use the following code while in ***models/yolov5*** directory:<br>
    
    ```python
    python val.py --data ../idd.yaml --weights runs/train/exp5/weights/best.pt --device cuda:0
@@ -73,8 +69,6 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    you might need to change the path for weights to point to latest set of 
 
 2. ***yolov5/runs/val/exp_no*** contains output after running the command.
-   
-   
 
 #### Detecting object in images:
 
@@ -87,12 +81,6 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    ```
 
 3. Results can be found inside ***yolov5/runs/detect/exp_no***.
-
-
-
-
-
-
 
 Collaborators:  
  [@Josh-Alex](https://github.com/JoshAlex12)  
