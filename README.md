@@ -16,13 +16,13 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
 
 4. While in the ***intelunnati_TeamTRON*** folder, create a virtual environment named _yolov5-env_ using the following command - `python -m venv yolov5-env`. [*This step is recommended so that modules needed for this project will not affect any other projects.*]<br> - To activate the environment, type `yolov5-env\Scripts\activate` in your terminal.
 
-5. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**models** and clone the [YOLOv5 Github repository]([GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch &gt; ONNX &gt; CoreML &gt; TFLite](https://github.com/ultralytics/yolov5)) into this using the terminal command `git clone https://github.com/ultralytics/yolov5`.<br>Navigate further into the cloned directory using `cd yolov5` and use `pip install -r requirements.txt` to install required modules.
+5. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**models** and clone the [YOLOv5 Github repository]([GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch &gt; ONNX &gt; CoreML &gt; TFLite](https://github.com/ultralytics/yolov5)) into this using the terminal command `git clone https://github.com/ultralytics/yolov5`. *[You will notice that there is already a file named yolov5 when you download the main repository itself, but it won't actually contain any files as it just links to an external repository]*<br>Navigate further into the cloned directory using `cd yolov5` and use `pip install -r requirements.txt` to install required modules.
 
 6. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**code** and run `pip install lxml` to install *lxml* module, which is needed for data preprocessing.
 
 7. Run *datasetPreprocessing.py* using the command `python datasetPreprocessing.py`. This will create a new folder ***modified_dataset*** in ***data*** folder, which is where dataset is stored in the proper format. <br>
 
-8. As of 13/07/2023, it has been noticed that a package Pillow v10.0.0 is causing issues. So, it is recommended to downgrade to version 9.5 using the code `pip install --upgrade Pillow==9.5`
+8. As of 13/07/2023, it has been noticed that a package Pillow v10.0.0 is causing issues. So, it is recommended to downgrade to version 9.5 using the code `pip install --upgrade Pillow==9.5`.
 
 ###### (Optional) Installing CUDA for training on GPU:
 
