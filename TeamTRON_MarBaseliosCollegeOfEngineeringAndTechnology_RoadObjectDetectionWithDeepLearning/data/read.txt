@@ -1,1 +1,0 @@
-Get the dataset from - http://idd.insaan.iiit.ac.in/ [IDD Detection (22.8 GB)]
