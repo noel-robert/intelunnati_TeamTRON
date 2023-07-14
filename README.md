@@ -4,19 +4,19 @@
 
 This repository was created as part of Intel UNNATI Industrial Training Project, 2023. The topic of our project was "Road Object Detection with Deep Learning". <br>
 
-<p> Our aim was to develop a model that could identify objects in roads, specifically Indian roads. The reason that other commonly available models could not work properly in this environment is due to the variety of objects found in Indian roads. <br><br>
+Our aim was to develop a model that could identify objects in roads, specifically Indian roads. The reason that other commonly available models could not work properly in this environment is due to the variety of objects found in Indian roads. <br><br>
 
 #### Setting-up environment and Data pre-processing:
 
 1. Clone | fork this project - [intelunnati_TeamTRON](https://github.com/noel-robert/intelunnati_TeamTRON)
 
-2. Download the dataset (_Indian Driving Dataset_) from [http://idd.insaan.iiit.ac.in](http://idd.insaan.iiit.ac.in) [_you will be asked to create an account_]. IDD Detection (_22.8 GB_) is the dataset being used in this case. <br> - Note that dataset directory here does not have _Annotations_  and _JPEGImages_ folders due to the large size of the dataset.
+2. Download the dataset (_Indian Driving Dataset_) from [http://idd.insaan.iiit.ac.in](http://idd.insaan.iiit.ac.in) [_you will be asked to create an account_]. IDD Detection (_22.8 GB_) is the dataset being used in this case. <br> - Note that dataset directory here does not have _Annotations_  and _JPEGImages_ folders due to the large size of the dataset.<br> - Also, instead of downloading the dataset, you can directly download the preprocessed dataset I have uploaded to Google Drive - [modified_dataset.7z - Google Drive](https://drive.google.com/file/d/11eG27ohpZH5FOSOTJtI7AwwArKm753ap/view?usp=sharing)
 
 3. Extract downloaded dataset and place into TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**data**. This will replace the ***IDD_Detection*** folder already present.
 
 4. While in the ***intelunnati_TeamTRON*** folder, create a virtual environment named _yolov5-env_ using the following command - `python -m venv yolov5-env`. [*This step is recommended so that modules needed for this project will not affect any other projects.*]<br> - To activate the environment, type `yolov5-env\Scripts\activate` in your terminal.
 
-5. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**models** and clone the [YOLOv5 Github repository]([GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch &gt; ONNX &gt; CoreML &gt; TFLite](https://github.com/ultralytics/yolov5)) into this using the terminal command `git clone https://github.com/ultralytics/yolov5`. *[You will notice that there is already a file named yolov5 when you download the main repository itself, but it won't actually contain any files as it just links to an external repository]*<br>Navigate further into the cloned directory using `cd yolov5` and use `pip install -r requirements.txt` to install required modules.
+5. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**models** and clone the [YOLOv5 Github repository]([GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch &gt; ONNX &gt; CoreML &gt; TFLite](https://github.com/ultralytics/yolov5)) into this using the terminal command `git clone https://github.com/ultralytics/yolov5`. *[You will notice that there is already a file named yolov5 when you download the main repository itself, but it won't actually contain any files as it just links to an external repository]* <br>Navigate further into the cloned directory using `cd yolov5` and use `pip install -r requirements.txt` to install required modules.
 
 6. Navigate to TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/**code** and run `pip install lxml` to install *lxml* module, which is needed for data preprocessing.
 
@@ -81,6 +81,14 @@ This repository was created as part of Intel UNNATI Industrial Training Project,
    ```
 
 3. Results can be found inside ***yolov5/runs/detect/exp_no***.
+
+<br>
+
+Note: You man not be able to see contents of ***yolov5/models*** as it is a github repository inside this main one. So, we have included all results we got as a separate folder.
+
+<br>
+
+<br>
 
 Collaborators:  
  [@Josh-Alex](https://github.com/JoshAlex12)  
