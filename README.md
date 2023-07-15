@@ -1,3 +1,9 @@
+### ****Folder Structure****<br>intelunnati_TeamTRON/
+
+### ****Folder Structure****<br>intelunnati_TeamTRON/
+
+### ****Folder Structure****<br>intelunnati_TeamTRON/
+
 ###### *intelunnati_TeamTRON*
 
 # **<u>Intel Unnati Project - Team TRON</u>**
@@ -58,7 +64,7 @@ Our aim is to develop a model that could identify objects in roads, specifically
 
 3. Results of model training can be found in ***models/yolov5/runs/trains/exp_no***.<br>A ***weights*** folder is also present containing *best.pt* and *last.pt*.The *best.pt* file contains the weights to be used for next iteration. <br> <br>
 
-#### Validating the trained model:
+#### Validating the **trained** model:
 
 1. Validation images are present inside ***modified_dataset/images/val***. To run the program for using trained weights to validate, use the following code while in ***models/yolov5*** directory: <br>
    
@@ -82,13 +88,69 @@ Our aim is to develop a model that could identify objects in roads, specifically
 
 3. Results can be found inside ***yolov5/runs/detect/exp_no***. <br> <br> <br> <br>
 
-Note: You man not be able to see contents of ***yolov5/models*** as it is a github repository inside this main one. So, we have included all results we got as a separate folder in [runs.7z - Google Drive](https://drive.google.com/file/d/1b9dsNeczHFCALR3tDcBCGzoRMX_szgQI/view?usp=drive_link). <br> <br> Demo video has also been uploaded through Google Drive link [intelunnati_TeamTRON - Visual Studio Code 2023-07-15 01-00-11.mp4 - Google Drive](https://drive.google.com/file/d/1fqE9ToE9gPHpq68IN1d_Efieel7MafPw/view?usp=drive_link) due to the large size. <br> <br>
+Note: Due to the large size of **results** folder, you man not be able to see contents of ***yolov5/models*** as it is a GitHub repository inside this main one. So, we have included all results we got as a separate folder in [runs.7z - Google Drive](https://drive.google.com/file/d/1b9dsNeczHFCALR3tDcBCGzoRMX_szgQI/view?usp=drive_link). <br> <br> Demo video has also been uploaded through Google Drive link [intelunnati_TeamTRON - Visual Studio Code 2023-07-15 01-00-11.mp4 - Google Drive](https://drive.google.com/file/d/1fqE9ToE9gPHpq68IN1d_Efieel7MafPw/view?usp=drive_link) due to the large size ~ 250MB. <br> <br>
 
 Collaborators:  
- [@Josh-Alex](https://github.com/JoshAlex12)  
- [@noel-robert](https://github.com/noel-robert)  
- [@nubifathima](https://github.com/nubifathima)
+ [@Josh Danny Alex](https://github.com/JoshAlex12)  
+ [@Noel John Robert](https://github.com/noel-robert)  
+ [@Nubi Fathima N](https://github.com/nubifathima)
 
-<br><br>
+<br>
 
-### ****Folder Structure****<br>
+### **Folder Structure**<br>
+
+intelunnati_TeamTRON/  
+├── TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/  
+│ ├── code/  
+│ │ └── dataPreprocessing.py  
+│ ├── data/  
+│ │ ├── custom_test_images/  
+│ │ │ ├── test1.jpg  
+│ │ │ ├── test2.jpg  
+│ │ │ ├── test3.jpg  
+│ │ │ ├── test4.jpg  
+│ │ │ └── test5.jpg  
+│ │ ├── IDD_Detection/  
+│ │ │ ├── Annotations/  
+│ │ │ │ ├── .  
+│ │ │ │ └── .  
+│ │ │ ├── JPEGImages/  
+│ │ │ │ ├── .  
+│ │ │ │ └── .  
+│ │ │ ├── test.txt  
+│ │ │ ├── train.txt  
+│ │ │ └── val.txt  
+│ │ └── modified_dataset/  
+│ │ ├── images/  
+│ │ │ ├── test/  
+│ │ │ │ └── .  
+│ │ │ ├── train/  
+│ │ │ │ └── .  
+│ │ │ └── val/  
+│ │ │ └── .  
+│ │ ├── labels/  
+│ │ │ ├── test/  
+│ │ │ ├── train/  
+│ │ │ │ └── .  
+│ │ │ └── val/  
+│ │ │ └── .  
+│ │ └── class_mapping.json  
+│ ├── demo_videos/  
+│ │ └── read.txt  
+│ ├── docs/  
+│ │ ├── read_this.txt  
+│ │ └── TeamTRON_ProjectReport.pdf  
+│ └── models/  
+│ ├── yolov5/  
+│ │ ├── .  
+│ │ └── .  
+│ ├── idd.yaml  
+│ ├── yolov5l.yaml  
+│ ├── yolov5m.yaml  
+│ ├── yolov5n.yaml  
+│ ├── yolov5s.yaml  
+│ └── yolov5x.yaml  
+├── yolov5-env/  
+│   └── .  
+├── .gitignore  
+└── README.md  
