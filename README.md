@@ -2,9 +2,9 @@
 
 # **<u>Intel Unnati Project - Team TRON</u>**
 
-This repository was created as part of Intel UNNATI Industrial Training Project, 2023. The topic of our project was "Road Object Detection with Deep Learning". <br>
+This repository is created as part of Intel UNNATI Industrial Training Project, 2023. The topic of our project was "Road Object Detection with Deep Learning". <br>
 
-Our aim was to develop a model that could identify objects in roads, specifically Indian roads. The reason that other commonly available models could not work properly in this environment is due to the variety of objects found in Indian roads. <br><br>
+Our aim is to develop a model that could identify objects in roads, specifically Indian roads. The reason that other commonly available models could not work properly in this environment is due to the variety of objects found in Indian roads. <br><br>
 
 #### Setting-up environment and Data pre-processing:
 
@@ -88,3 +88,7 @@ Collaborators:
  [@Josh-Alex](https://github.com/JoshAlex12)  
  [@noel-robert](https://github.com/noel-robert)  
  [@nubifathima](https://github.com/nubifathima)
+
+<br><br>
+
+### ****Folder Structure****<br>
