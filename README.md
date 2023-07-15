@@ -78,7 +78,9 @@ Our aim is to develop a model that could identify objects in roads, specifically
 
 3. Results can be found inside ***yolov5/runs/detect/exp_no***. <br> <br>
 
-Note: Due to the large size of **results** folder, you man not be able to see contents of ***yolov5/models*** as it is a GitHub repository inside this main one. So, we have included all results we got as a folder named [runs](https://drive.google.com/drive/folders/1J-jl5xcWpquqfETjoATuu0NeGevLE97G?usp=drive_link) in Google Drive. <br> <br> Demo video has also been uploaded through Google Drive link [intelunnati_TeamTRON - Visual Studio Code 2023-07-15 01-00-11.mp4](https://drive.google.com/file/d/1fqE9ToE9gPHpq68IN1d_Efieel7MafPw/view?usp=drive_link) due to the large size of ~ 250MB. <br> <br>
+Note: Due to the large size of **results** folder, you man not be able to see contents of ***yolov5/models*** as it is a GitHub repository inside this main one. So, we have included all results we got as a folder named [runs](https://drive.google.com/drive/folders/1J-jl5xcWpquqfETjoATuu0NeGevLE97G?usp=drive_link) in Google Drive. <br> <br>
+
+If you have skipped training and directly want to use the weights from us, navigate to the ***yolov5*** directory you have cloned from official repository and place contents of [this folder](https://drive.google.com/drive/folders/1VR3irc3hKE4ayjb3vTawRKIpvJeYBLMB?usp=drive_link) (*which contains results of the training runs*), into ***runs*** folder (ie, ***models/yolov5/runs***). <br><br> Demo video has also been uploaded through Google Drive link [intelunnati_TeamTRON - Visual Studio Code 2023-07-15 01-00-11.mp4](https://drive.google.com/file/d/1fqE9ToE9gPHpq68IN1d_Efieel7MafPw/view?usp=drive_link) due to the large size of ~ 250MB. <br> <br>
 
 #### Collaborators:
 
@@ -148,3 +150,5 @@ intelunnati_TeamTRON/
 &emsp;&ensp;│   &emsp;&ensp;└── *.*  
 &emsp;&ensp;├── .gitignore  
 &emsp;&ensp;└── [README.md](https://github.com/noel-robert/intelunnati_TeamTRON/blob/main/README.md)
+
+<br><br>[GDrive link](https://drive.google.com/drive/folders/1c6xBeniQ2ZX-BxZMNw7-7E_cMFyi7Ef7?usp=sharing) for all related files that couldn't be placed into GitHub directly.
