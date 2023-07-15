@@ -73,7 +73,7 @@ Our aim is to develop a model that could identify objects in roads, specifically
 2. You need to place your custom image inside ***data/custom_test_images*** and run the following command `python detect.py --source <path/to/images> --weights <path/to/weights.pt> --conf 0.4`. Here, only those with a confidence threshold of 0.4 is chosen. Example code to directly run detect.py is:<br>
    
    ```python
-   python detect.py --source ../../data/custom_test_images/test1.jpeg --weights runs/train/exp5/weights/best.pt --conf 0.4
+   python detect.py --source ../../data/custom_test_images/test1.jpg --weights runs/train/exp5/weights/best.pt --conf 0.4
    ```
 
 3. Results can be found inside ***yolov5/runs/detect/exp_no***. <br> <br>
