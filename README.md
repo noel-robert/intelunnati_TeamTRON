@@ -1,9 +1,3 @@
-### ****Folder Structure****<br>intelunnati_TeamTRON/
-
-### ****Folder Structure****<br>intelunnati_TeamTRON/
-
-### ****Folder Structure****<br>intelunnati_TeamTRON/
-
 ###### *intelunnati_TeamTRON*
 
 # **<u>Intel Unnati Project - Team TRON</u>**
@@ -100,57 +94,56 @@ Collaborators:
 ### **Folder Structure**<br>
 
 intelunnati_TeamTRON/  
-├── TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/  
-│ ├── code/  
-│ │ └── dataPreprocessing.py  
-│ ├── data/  
-│ │ ├── custom_test_images/  
-│ │ │ ├── test1.jpg  
-│ │ │ ├── test2.jpg  
-│ │ │ ├── test3.jpg  
-│ │ │ ├── test4.jpg  
-│ │ │ └── test5.jpg  
-│ │ ├── IDD_Detection/  
-│ │ │ ├── Annotations/  
-│ │ │ │ ├── .  
-│ │ │ │ └── .  
-│ │ │ ├── JPEGImages/  
-│ │ │ │ ├── .  
-│ │ │ │ └── .  
-│ │ │ ├── test.txt  
-│ │ │ ├── train.txt  
-│ │ │ └── val.txt  
-│ │ └── modified_dataset/  
-│ │ ├── images/  
-│ │ │ ├── test/  
-│ │ │ │ └── .  
-│ │ │ ├── train/  
-│ │ │ │ └── .  
-│ │ │ └── val/  
-│ │ │ └── .  
-│ │ ├── labels/  
-│ │ │ ├── test/  
-│ │ │ ├── train/  
-│ │ │ │ └── .  
-│ │ │ └── val/  
-│ │ │ └── .  
-│ │ └── class_mapping.json  
-│ ├── demo_videos/  
-│ │ └── read.txt  
-│ ├── docs/  
-│ │ ├── read_this.txt  
-│ │ └── TeamTRON_ProjectReport.pdf  
-│ └── models/  
-│ ├── yolov5/  
-│ │ ├── .  
-│ │ └── .  
-│ ├── idd.yaml  
-│ ├── yolov5l.yaml  
-│ ├── yolov5m.yaml  
-│ ├── yolov5n.yaml  
-│ ├── yolov5s.yaml  
-│ └── yolov5x.yaml  
-├── yolov5-env/  
-│   └── .  
-├── .gitignore  
-└── README.md  
+&emsp;&ensp;├── TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/  
+&emsp;&ensp;│ &emsp;&ensp;├── code/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── dataPreprocessing.py  
+&emsp;&ensp;│ &emsp;&ensp;├── data/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── custom_test_images/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── test1.jpg  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── test2.jpg  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── IDD_Detection/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *Annotations*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *JPEGImages*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── test.txt  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── train.txt  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── val.txt  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── modified_dataset/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *images/  *
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *test*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *train*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── *val*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *labels*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *test*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *train*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── *val*/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── class_mapping.json  
+&emsp;&ensp;│ &emsp;&ensp;├── demo_videos/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── read.txt  
+&emsp;&ensp;│ &emsp;&ensp;├── docs/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── read_this.txt  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── TeamTRON_ProjectReport.pdf  
+&emsp;&ensp;│ &emsp;&ensp;└── models/  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *yolov5*/  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── .  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── idd.yaml  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5l.yaml  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5m.yaml  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5n.yaml  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5s.yaml  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── yolov5x.yaml  
+&emsp;&ensp;├── *yolov5-env*/  
+&emsp;&ensp;│   &emsp;&ensp;└── .  
+&emsp;&ensp;├── .gitignore  
+&emsp;&ensp;└── README.md
