@@ -92,6 +92,7 @@ Collaborators:
 <br>
 
 ### **Folder Structure**<br>
+###### *italicized file | folder name means it will not be present on cloning this directory and has to be obtained from some other source, as mentioned*
 
 intelunnati_TeamTRON/  
 &emsp;&ensp;├── TeamTRON_MarBaseliosCollegeOfEngineeringAndTechnology_RoadObjectDetectionWithDeepLearning/  
@@ -105,38 +106,39 @@ intelunnati_TeamTRON/
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── IDD_Detection/  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *Annotations*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── .  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *.*  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *JPEGImages*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── .  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── *.*  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── test.txt  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── train.txt  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── val.txt  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── modified_dataset/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *images/  *
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *images*/  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *test*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *train*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── *val*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *labels*/  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *test*/  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *train*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── *val*/  
-&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── class_mapping.json  
 &emsp;&ensp;│ &emsp;&ensp;├── demo_videos/  
+&emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── *intelunnati_TeamTRON - Visual Studio Code 2023-07-15 01-00-11.mp4*  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── read.txt  
 &emsp;&ensp;│ &emsp;&ensp;├── docs/  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;├── read_this.txt  
 &emsp;&ensp;│ &emsp;&ensp;│ &emsp;&ensp;└── TeamTRON_ProjectReport.pdf  
 &emsp;&ensp;│ &emsp;&ensp;└── models/  
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── *yolov5*/  
-&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── .  
-&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── .  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;├── *.*  
+&emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;│ &emsp;&ensp;└── *.*  
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── idd.yaml  
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5l.yaml  
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5m.yaml  
@@ -144,6 +146,7 @@ intelunnati_TeamTRON/
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;├── yolov5s.yaml  
 &emsp;&ensp;│ &emsp;&ensp;&emsp;&emsp;&ensp;└── yolov5x.yaml  
 &emsp;&ensp;├── *yolov5-env*/  
-&emsp;&ensp;│   &emsp;&ensp;└── .  
+&emsp;&ensp;│   &emsp;&ensp;└── *.*  
+&emsp;&ensp;│   &emsp;&ensp;└── *.*  
 &emsp;&ensp;├── .gitignore  
 &emsp;&ensp;└── README.md
